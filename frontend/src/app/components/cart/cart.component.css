@@ -1,0 +1,61 @@
+.cart {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+#compra {
+    width: 500px;
+    height: auto;
+}
+
+#pagamento {
+    width: 400px;
+    height: 300px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.voltar {
+    text-decoration: none;
+}
+
+img {
+    height: 180px;
+    width: 120px;
+}
+
+.bi-x-circle {
+    cursor: pointer;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 40px;
+    width: 100%;
+}
+
+@media (max-width: 576px){
+    #pagamento {
+        display: block;
+        margin-left: auto;
+    }
+    #compra {
+        margin-left: auto;
+    }
+}
+
+@media ((min-width: 577px) and (max-width: 820px)){
+    #pagamento {
+        display: block;
+        margin-left: auto;
+    }
+    #compra {
+        margin-left: 110px;
+    }
+}
+

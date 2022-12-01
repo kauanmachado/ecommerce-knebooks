@@ -1,0 +1,16 @@
+.sobre {
+    margin-top: 150px;
+}
+.container {
+    height: 600px;
+}
+
+img {
+    width: 240px;
+    height: 216px;
+
+}
+
+#titulo {
+    font-weight: bold;
+}

@@ -1,0 +1,50 @@
+<div class="pagamento">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="cont-pagamento shadow p-3">
+                <a href="carrinho" class="voltar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-arrow-left-circle mb-1" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                          </svg>
+                    </a>
+                <h2 class="text-center mt-3 fw-bold">Selecione sua forma de pagamento</h2>
+
+                <ul class="list-group">
+
+                    <li class="list-group-item" aria-current="true">
+                        <input type="radio" class="btn-check" name="pagamento" autocomplete="off" id="pag1" checked >
+                        <label class="btn btn-outline-primary" for="pag1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" fill="currentColor" class="bi bi-credit-card-fill" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1H0V4zm0 3v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7H0zm3 2h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1z"/>
+                              </svg>
+                            <h4>Cartão de crédito</h4>
+                            <select class="form-select" aria-label="Seus cartões">
+                                <option selected>Cartão 1</option>
+                                <option value="1">Cartão 2</option>
+                              </select>
+                              <select class="form-select mt-3 mb-3" aria-label="Deseja fazer em quantas vezes?">
+                                <option selected>1x</option>
+                                <option value="1">2x</option>
+                                <option value="1">3x</option>
+                              </select>
+                        </label>
+                    </li>
+
+                    <li class="list-group-item">
+                        <input type="radio" class="btn-check" name="pagamento" autocomplete="off" id="pag2" checked >
+                        <label class="btn btn-outline-primary" for="pag2">
+                            <img src="../../../assets/images/pix-logo.png" id="pix-logo" class="">
+                            <h4>PIX</h4>
+                            <span class="text-white text-center">CNPJ: 009 0001 023 77</span>
+                        </label>
+                    </li>
+                  </ul>
+                  <a href="pagamento">
+                    <button type="button" class="btn btn-success btn-lg">Finalizar compra</button>
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+

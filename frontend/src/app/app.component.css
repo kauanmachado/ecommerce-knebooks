@@ -1,0 +1,61 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.navbar {
+    height: 100px;
+}
+
+li {
+    border-radius: 10%;
+}
+
+.nav-item {
+    padding: 8px
+}
+
+#btn-login {
+    width: 180px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+#title {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 28px;
+    
+}
+.navbar-brand img {
+    height: 60px;
+}
+
+li:hover {
+    transition: 0.8s;
+    border-radius: 10%;
+    background-color: #0466dd !important;
+}
+
+footer {
+    
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#nav-mobile {
+    background-image: linear-gradient(to right, #0077c7, #083263);
+}
+@media (max-width: 950px){
+    #nav-desk {
+        display: none;
+    }
+}
+
+
+

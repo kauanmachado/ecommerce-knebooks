@@ -1,0 +1,50 @@
+.pagamento {
+    margin-top: 100px;
+}
+
+.cont-pagamento {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 600px;
+    height: auto;
+    background-color: white;
+}
+
+.voltar {
+    text-decoration: none;
+}
+.list-group-item {
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 28px;
+    height: auto;
+    transition: 0.3s;
+}
+
+.list-group-item a{
+    font-size: 18px;
+    color: green;
+}
+
+.list-group-item SPAN{
+    float: right;
+    font-size: 14px;
+    color: green;
+}
+ .form-select {
+    font-weight: bold;
+    margin: auto;
+    width: 300px;
+    font-size: 16px;
+ }
+
+#pix-logo {
+    width: 50px;
+}
+
+.btn {
+    margin-top: 40px;
+    width: 100%;
+}
+

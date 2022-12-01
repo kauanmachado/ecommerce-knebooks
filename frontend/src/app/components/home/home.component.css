@@ -1,0 +1,134 @@
+
+
+.banner-ebook {
+    background-image: url('../../../assets/images/category-fic.png');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#intro h1 {
+    color: #000;
+    -webkit-text-stroke: 1px #FFF;
+    text-stroke: 1px #FFF;
+    margin-top: 180px;
+    font-weight: bold;
+    font-size: 54px;
+}
+
+
+#btn-e {
+    color: #fff !important;
+    height: 60px;
+    width: 150px;
+    width: auto;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    border-radius: 34px;
+    border: none;
+
+}
+
+#btn-e:hover {
+    background-color: #0466dd !important;
+}
+
+#title {
+    font-weight: bold;
+}
+#hr {
+    color: black;
+}
+#product {
+    padding:60px 15px 60px 15px;
+    height: 300px !important;
+}
+
+.card {
+    border: none;
+    width: 100%;
+    height: 100%; 
+    
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.card {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.price {
+    font-size: 26px;
+    font-weight: bold;
+    color: green;
+}
+
+.card:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+
+.box {
+    width: 300px;
+    height: 300px;
+    padding:0%;
+}
+
+.card-category{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    background-size: cover;
+    color: #fff;
+    cursor: pointer;
+    height: 200px;
+}
+
+#card-bio{
+    background-image: url('../../../assets/images/category-bio.png');
+
+}
+
+#card-fic {
+    background-image: url('../../../assets/images/category-fic.png');
+}
+
+#card-terror{
+    background-image: url('../../../assets/images/category-terror.jpg');
+}
+
+#card-selfhelp {
+    background-image: url('../../../assets/images/capa.png');
+}
+.card-category:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+}
+
+#btn-vermais {
+    height: 54px;
+    width: auto;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+#card-title {
+
+    color: #000;
+    -webkit-text-stroke: 1px #FFF;
+    text-stroke: 1px #FFF;
+}
+
+@media (max-width: 576px){
+    #row-categorias {
+        margin: auto;
+    }
+
+}
+

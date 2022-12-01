@@ -1,0 +1,44 @@
+.livro-detalhe {
+    margin-top: 100px;
+}
+
+#cont-livro {
+    background-color: white;
+    margin-bottom: 100px;
+    width: 1200px;
+    height: auto;
+}
+
+img {
+    cursor: pointer;
+    float: right;
+    margin-left: 350px;
+    width: 300px;
+}
+
+.linha1 {
+    background-image: linear-gradient(to right, #0077c7, #083263);
+    width: 100%;
+    height: 3px;
+}
+
+#comprar {
+    width: 265px;
+}
+
+@media ((min-width: 650px) and (max-width: 950px)){
+    img {
+        display: none;
+
+    }
+}
+
+@media (max-width: 650px){
+    img {
+       display: none;
+    }
+}
+
+
+
+
